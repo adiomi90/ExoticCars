@@ -261,14 +261,18 @@ padding:;
     display: inline-block;
 }
 
-.social a:hover{
+
+
+
+.social li:nth-child(1) a:hover,.social li:nth-child(2) a:hover{
     background: white;
-    color:red;
+    color:blue;
+    
 }
 
-
-
-
-
-
+.social li:nth-child() a:hover{
+    background: white;
+    color:red;
+    
+}
 
